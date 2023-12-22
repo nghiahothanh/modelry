@@ -1,0 +1,50 @@
+// Ref: https://github.com/nuxt-community/vuetify-module#customvariables
+//
+// The variables you want to modify
+// $font-size-root: 20px;
+
+
+#__nuxt .v-application {
+    background: #f4f6f7;
+}
+a,.v-btn  {
+    cursor: pointer;
+}
+p {
+    color: rgba(30, 39, 50, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+span {
+    text-transform: none;
+}
+.v-input--density-default .v-field__input {
+    min-height: 38px;
+}
+.v-text-field .v-input__details {
+    display: none;
+}
+.v-overlay__scrim {
+    background-color: rgba(30,39,50,.8) !important;
+    opacity: 1 !important;
+}
+.v-btn--disabled,
+.v-input--disabled {
+    cursor: not-allowed;
+    pointer-events: stroke !important;
+}
+.textGrey {
+    color: rgba(30,39,50,.5);
+}
+.v-field__input {
+    padding: 0;
+}
+.v-tab__slider {
+    opacity: 0 !important;
+}
+.buttonPrimary {
+    background-color: #19bcc9 !important;
+    color: #fff !important;
+    transition: 0.25s;
+  }
